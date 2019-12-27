@@ -1,0 +1,98 @@
+:root{
+    --col-width:8.33333333%;
+}
+
+/* se dividio la pantalla en 12 por tal motivo cada columna debe completar 12 por ejemplo 8+4=12 */
+.container{
+    /* delimitar el ancho */
+    max-width: 900px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.conta{
+  max-width: 900px;
+    margin: auto;
+  
+   
+
+
+}
+/*  container es el padre de row,row es padre y column es el hijo */
+.row{
+    display: flex;
+    max-height: 300px;
+    align-items: center;
+    margin-top: 120px;
+
+}
+
+.container h1{
+  font-size: 30px;
+}
+
+.col-1{
+    width:var(--col-width) ;
+}
+.col-2 {
+    width: calc(var(--col-width) * 2);
+  }
+  
+  .col-3 {
+    width: calc(var(--col-width) * 3);
+  }
+  
+  .col-4 {
+    width: calc(var(--col-width) * 4);
+  }
+  
+  .col-5 {
+    width: calc(var(--col-width) * 5);
+  }
+  
+  .col-6 {
+    width: calc(var(--col-width) * 6);
+  }
+  
+  .col-7 {
+    width: calc(var(--col-width) * 7);
+  }
+  
+  .col-8 {
+    width: calc(var(--col-width) * 8);
+  }
+  
+  .col-9 {
+    width: calc(var(--col-width) * 9);
+  }
+  
+  .col-10 {
+    width: calc(var(--col-width) * 10);
+  }
+  
+  .col-11 {
+    width: calc(var(--col-width) * 11);
+  }
+  
+  .col-12 {
+    width: calc(var(--col-width) * 12);
+  }
+
+  [class*='col-'] {
+    padding: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .row {
+      display: inherit;
+    }
+  
+    [class*='col-'] {
+      width: 100%;
+    }
+  }
+
+  .col-4 img{
+    width:70%;
+    height:70%;
+  }

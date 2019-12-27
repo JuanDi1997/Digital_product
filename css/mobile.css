@@ -1,0 +1,30 @@
+/* por debajo de los 600 px proceda a realizar lo que está adentro */
+@media (max-width:600px){
+
+    .products{
+        display: inherit;
+        height: auto;
+    }
+
+    .product{
+        margin-top: auto;
+    }
+
+    .main_section{
+        padding: 4%;
+    }
+
+    .ani{
+        display: inherit;
+        height: auto;
+
+    }
+
+    .ani2{
+        display: inherit;
+        height: auto;
+
+    }
+
+
+}

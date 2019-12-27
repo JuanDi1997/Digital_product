@@ -1,0 +1,19 @@
+body{
+
+    /* alinear de manera vertical */
+    background-color: var(--black-color);
+    text-align: center;
+    color: var(--white-color);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    height:100vh;
+    /* tamaño de la pantalla */
+}
+
+.content_paypal a{
+    color: var(--green-color);
+  
+    
+}
